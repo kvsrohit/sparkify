@@ -20,11 +20,11 @@ The notebook needs pyspark, matplotlib, numpy and pandas libraries. These are av
 
 ## Project Overview
 
-Sparkify is an online music streaming service that allows its users to listen and manage their favourite music. Sparkify offers its services in two tiers. The free tier where users can use Sparkify services for free but songs are interspersed with commercial breaks. The paid tier on the other hand is a premium service that plays ad free music at a monthly subscription fee.
+Sparkify is an online music streaming service that allows its users to listen and manage their favorite music. Sparkify offers its services in two tiers. The free tier where users can use Sparkify services for free but songs are interspersed with commercial breaks. The paid tier on the other hand is a premium service that plays ad free music at a monthly subscription fee.
 
 Users can add songs to their play list, like or dislike songs, add other users as friends (possibly for sharing playlists) along with upgrading, downgrading or cancelling subscription. Each of the action taken by user is added to an event log which contains event type, timestamp of the event along with user name,  subscription tier and other event specific details.
 
-Based on the usage pattern of users, Sparkify would like to predict if a user is at risk of leaving or downgrading their subscription. This will help them identify users who can be icentivised by means of discounts so that they stay.
+Based on the usage pattern of users, Sparkify would like to predict if a user is at risk of leaving or downgrading their subscription. This will help them identify users who can be offered incentives by means of discounts so that they stay.
 
 ## Problem Statement
 Users cancelling the subscription or downgrading their account is a potential revenue loss. Sparkify would like to avoid and minimize users cancelling or downgrading the subscription.
@@ -34,7 +34,7 @@ The goal of this project is to apply data analysis and machine learning to predi
 - Data needs pre-processing in form of
 	- Clean up of missing or unusable data
 	- Feature extraction to extract meaningful information
-- The pre-processed data is then used to train several superwised machine learning model.
+- The pre-processed data is then used to train several supervised machine learning model.
 - The best suited model is then chosen to predict future data
 
 ## Project Structure
@@ -53,7 +53,7 @@ Sparkify/
 
 ## Reflections
 
-- Several features like average session duration, songs listenred per session have been averaged out for entire period. Splitting it 'week on week' could reveal interesting trends, as a shrinking session duration over the period may be a better indicator of users prone to churn. This may also improve accuracy of model.
+- Several features like average session duration, songs listened per session have been averaged out for entire period. Splitting it 'week on week' could reveal interesting trends, as a shrinking session duration over the period may be a better indicator of users prone to churn. This may also improve accuracy of model.
 
 - Additional information about user profile like user's age group, interests if made available, could have been very useful.
 
