@@ -38,7 +38,6 @@ The goal of this project is to apply data analysis and machine learning to predi
 - The best suited model is then chosen to predict future data
 
 ## Project Structure
-
 ```text
 Sparkify/
 ├── Sparkify.html
@@ -52,13 +51,13 @@ Sparkify/
 - mini_sparkify_event_data.json ==> Sparkify user event log in json format
 
 ## Reflections
-
 - Several features like average session duration, songs listened per session have been averaged out for entire period. Splitting it 'week on week' could reveal interesting trends, as a shrinking session duration over the period may be a better indicator of users prone to churn. This may also improve accuracy of model.
 
 - Additional information about user profile like user's age group, interests if made available, could have been very useful.
 
 - We can derive the song genre based on title and external lookup. If users liking a particular genre are churning more, this could indicate issues with out recommendation engine.
 
+Further details of analysis and steps followed can be found on my [medium blog post](https://medium.com/@khode.rohit/predicting-user-churn-54ee1ae780b0)
 
 ## References
 1. https://spark.apache.org/docs/latest/api/python/
